@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		D0150FEF256CEEE700123730 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0150FEE256CEEE700123730 /* AppDelegate.swift */; };
 		D0150FF1256CEEE700123730 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0150FF0256CEEE700123730 /* SceneDelegate.swift */; };
-		D0150FF3256CEEE700123730 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0150FF2256CEEE700123730 /* ViewController.swift */; };
 		D0150FF6256CEEE700123730 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0150FF4256CEEE700123730 /* Main.storyboard */; };
 		D0150FF9256CEEE700123730 /* BrainvireTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0150FF7256CEEE700123730 /* BrainvireTask.xcdatamodeld */; };
 		D0150FFB256CEEEA00123730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0150FFA256CEEEA00123730 /* Assets.xcassets */; };
 		D0150FFE256CEEEA00123730 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0150FFC256CEEEA00123730 /* LaunchScreen.storyboard */; };
 		D0151009256CEEEA00123730 /* BrainvireTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0151008256CEEEA00123730 /* BrainvireTaskTests.swift */; };
 		D0151014256CEEEA00123730 /* BrainvireTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0151013256CEEEA00123730 /* BrainvireTaskUITests.swift */; };
+		D0151050256CF3FE00123730 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D015104F256CF3FE00123730 /* HomeVC.swift */; };
+		D0151058256CFC8400123730 /* ViewEmployeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0151057256CFC8400123730 /* ViewEmployeeVC.swift */; };
+		D015105E256CFD0500123730 /* EmployeeDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D015105C256CFD0500123730 /* EmployeeDetailsCell.swift */; };
+		D015105F256CFD0500123730 /* EmployeeDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D015105D256CFD0500123730 /* EmployeeDetailsCell.xib */; };
+		D0151068256D03FF00123730 /* ViewEmployeeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0151067256D03FF00123730 /* ViewEmployeeDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,6 @@
 		D0150FEB256CEEE700123730 /* BrainvireTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainvireTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0150FEE256CEEE700123730 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0150FF0256CEEE700123730 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D0150FF2256CEEE700123730 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D0150FF5256CEEE700123730 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0150FF8256CEEE700123730 /* BrainvireTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BrainvireTask.xcdatamodel; sourceTree = "<group>"; };
 		D0150FFA256CEEEA00123730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +54,11 @@
 		D015100F256CEEEA00123730 /* BrainvireTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainvireTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0151013256CEEEA00123730 /* BrainvireTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainvireTaskUITests.swift; sourceTree = "<group>"; };
 		D0151015256CEEEA00123730 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D015104F256CF3FE00123730 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		D0151057256CFC8400123730 /* ViewEmployeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewEmployeeVC.swift; sourceTree = "<group>"; };
+		D015105C256CFD0500123730 /* EmployeeDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailsCell.swift; sourceTree = "<group>"; };
+		D015105D256CFD0500123730 /* EmployeeDetailsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmployeeDetailsCell.xib; sourceTree = "<group>"; };
+		D0151067256D03FF00123730 /* ViewEmployeeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewEmployeeDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +111,9 @@
 			children = (
 				D0150FEE256CEEE700123730 /* AppDelegate.swift */,
 				D0150FF0256CEEE700123730 /* SceneDelegate.swift */,
-				D0150FF2256CEEE700123730 /* ViewController.swift */,
 				D0150FF4256CEEE700123730 /* Main.storyboard */,
+				D015106C256D040900123730 /* ViewControllers */,
+				D0151063256CFD0B00123730 /* XIB Files */,
 				D0150FFA256CEEEA00123730 /* Assets.xcassets */,
 				D0150FFC256CEEEA00123730 /* LaunchScreen.storyboard */,
 				D0150FFF256CEEEA00123730 /* Info.plist */,
@@ -129,6 +138,25 @@
 				D0151015256CEEEA00123730 /* Info.plist */,
 			);
 			path = BrainvireTaskUITests;
+			sourceTree = "<group>";
+		};
+		D0151063256CFD0B00123730 /* XIB Files */ = {
+			isa = PBXGroup;
+			children = (
+				D015105C256CFD0500123730 /* EmployeeDetailsCell.swift */,
+				D015105D256CFD0500123730 /* EmployeeDetailsCell.xib */,
+			);
+			path = "XIB Files";
+			sourceTree = "<group>";
+		};
+		D015106C256D040900123730 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0151067256D03FF00123730 /* ViewEmployeeDetails.swift */,
+				D015104F256CF3FE00123730 /* HomeVC.swift */,
+				D0151057256CFC8400123730 /* ViewEmployeeVC.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +264,7 @@
 			files = (
 				D0150FFE256CEEEA00123730 /* LaunchScreen.storyboard in Resources */,
 				D0150FFB256CEEEA00123730 /* Assets.xcassets in Resources */,
+				D015105F256CFD0500123730 /* EmployeeDetailsCell.xib in Resources */,
 				D0150FF6256CEEE700123730 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,8 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0150FF3256CEEE700123730 /* ViewController.swift in Sources */,
+				D015105E256CFD0500123730 /* EmployeeDetailsCell.swift in Sources */,
+				D0151050256CF3FE00123730 /* HomeVC.swift in Sources */,
 				D0150FEF256CEEE700123730 /* AppDelegate.swift in Sources */,
+				D0151068256D03FF00123730 /* ViewEmployeeDetails.swift in Sources */,
+				D0151058256CFC8400123730 /* ViewEmployeeVC.swift in Sources */,
 				D0150FF1256CEEE700123730 /* SceneDelegate.swift in Sources */,
 				D0150FF9256CEEE700123730 /* BrainvireTask.xcdatamodeld in Sources */,
 			);
